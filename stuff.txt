@@ -1,0 +1,25 @@
+for(let pirmas in data){
+
+//   console.log(data[pirmas])
+
+    for(let antras in data[pirmas]){
+
+//        console.log(antras + " : " +data[pirmas][antras])
+
+        if(antras == "id"){
+//            console.log(antras + " : " +data[pirmas][antras])
+
+            for (let i = 0; i < favorite_movies.lenght; i++){
+                let movie_id = [];
+                movie_id.push(favorite_movies.data[pirmas][antras])
+                console.log(movie_id)
+            }
+        }
+
+        if(antras == "title"){
+//            console.log(antras + " : " +data[pirmas][antras])
+            let movie_title = [];
+        }
+
+    }
+}
